@@ -1,6 +1,6 @@
 package com.main.java.marsRover;
 
-import com.main.java.marsRover.controler.RoverControler;
+import com.main.java.marsRover.controller.RoverController;
 import com.main.java.utils.RoverUtils;
 
 import java.io.BufferedReader;
@@ -21,7 +21,7 @@ public class App {
         String filePath = "File path here";
         ArrayList <String> roverMovements= readFile(filePath);
 
-        RoverControler rover = new RoverControler();
+        RoverController rover = new RoverController();
 
         int count = RoverUtils.NUMBER_1;
 

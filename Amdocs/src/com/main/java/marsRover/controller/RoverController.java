@@ -1,13 +1,13 @@
-package com.main.java.marsRover.controler;
+package com.main.java.marsRover.controller;
 
 import com.main.java.marsRover.model.Rover;
 import com.main.java.utils.RoverUtils;
 
-public class RoverControler {
+public class RoverController {
 
     Rover rover = new Rover();
 
-    public RoverControler(){}
+    public RoverController(){}
 
     public void setPosition(Integer xAxis, Integer yAxis, Character facing) {
         rover.setXAxis(xAxis);
